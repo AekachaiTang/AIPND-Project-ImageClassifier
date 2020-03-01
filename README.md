@@ -143,4 +143,16 @@ To train the neural network (CNN), start the first part of file `Image Classifie
 
 To change to input folder, the output size and some other parameters for the neural network, you can adapt these global constants inside the python file.
   
-  
+ ```
+# ---- set parameters ---------------
+param_data_directory = "flowers"            # default: flowers
+param_output_size = 102                     # 102 - original # 10 - test
+param_save_file_name = "checkpoint.pth"     # checkpoint.pth
+param_save_directory = "./"                 # ./
+param_architecture = "vgg13"                # densenet121 or vgg13 or resnet18
+param_learning_rate = 0.001                 # 0.001
+param_hidden_units = 500                    # 500
+param_epochs = 3                            # 3
+param_gpu = True                            # True or False
+# -----------------------------------
+``` 
