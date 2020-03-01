@@ -55,3 +55,17 @@ This jupyter notebook describe the whole project from udacity, from the beginnin
 
 The whole project is located in the file `Image Classifier Project.py` and it's include the training and the prediction part.
 Based on this implementation the jupyter notebook was created from this.
+
+----- running with params -----
+data directory:  flowers
+save directory:  ./
+architecture:    vgg13
+learning rate:   0.001
+hidden units:    500
+epochs:          3
+gpu:             True
+-------------------------------
+cnn neural network ...
+  load image data ... done
+  
+  
