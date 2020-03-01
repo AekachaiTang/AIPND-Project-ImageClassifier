@@ -130,8 +130,10 @@ get prediction ... done.
 load image data ... done
 
 ```
+![globe thistle](./assets/download.png)
+![chart](./assets/download1.png)  
 
-
+After this I will explain more in details the training and prediction steps.
 
   
   
