@@ -135,5 +135,12 @@ load image data ... done
 
 After this I will explain more in details the training and prediction steps.
 
+### Train the model
+
+To train the neural network (CNN), start the first part of file `Image Classifier Project.py` marked as `train`.
+
+### Parameters of training
+
+To change to input folder, the output size and some other parameters for the neural network, you can adapt these global constants inside the python file.
   
   
