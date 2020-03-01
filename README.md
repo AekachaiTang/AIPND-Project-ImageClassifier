@@ -56,7 +56,7 @@ This jupyter notebook describe the whole project from udacity, from the beginnin
 The whole project is located in the file `Image Classifier Project.py` and it's include the training and the prediction part.
 Based on this implementation the jupyter notebook was created from this.
 
------ running with params -----
+```----- running with params -----
 data directory:  flowers
 save directory:  ./
 architecture:    vgg13
@@ -67,5 +67,44 @@ gpu:             True
 -------------------------------
 cnn neural network ...
   load image data ... done
+  
+  done
+initialized.
+start deep-learning in -gpu- mode ... 
+epoch: 1/3..  training loss: 4.739..  validation loss: 3.941..  validation accuracy: 0.185
+epoch: 1/3..  training loss: 4.100..  validation loss: 3.462..  validation accuracy: 0.261
+epoch: 1/3..  training loss: 3.778..  validation loss: 2.932..  validation accuracy: 0.357
+epoch: 1/3..  training loss: 3.443..  validation loss: 2.537..  validation accuracy: 0.423
+epoch: 1/3..  training loss: 3.237..  validation loss: 2.177..  validation accuracy: 0.481
+epoch: 1/3..  training loss: 3.069..  validation loss: 1.971..  validation accuracy: 0.512
+epoch: 1/3..  training loss: 2.817..  validation loss: 1.731..  validation accuracy: 0.553
+epoch: 1/3..  training loss: 2.751..  validation loss: 1.686..  validation accuracy: 0.581
+epoch: 1/3..  training loss: 2.782..  validation loss: 1.538..  validation accuracy: 0.618
+epoch: 1/3..  training loss: 2.391..  validation loss: 1.446..  validation accuracy: 0.627
+epoch: 2/3..  training loss: 1.764..  validation loss: 1.364..  validation accuracy: 0.641
+epoch: 2/3..  training loss: 2.310..  validation loss: 1.248..  validation accuracy: 0.668
+epoch: 2/3..  training loss: 2.308..  validation loss: 1.183..  validation accuracy: 0.685
+epoch: 2/3..  training loss: 2.345..  validation loss: 1.149..  validation accuracy: 0.697
+epoch: 2/3..  training loss: 2.188..  validation loss: 1.096..  validation accuracy: 0.721
+epoch: 2/3..  training loss: 2.222..  validation loss: 1.100..  validation accuracy: 0.709
+epoch: 2/3..  training loss: 2.135..  validation loss: 1.033..  validation accuracy: 0.714
+epoch: 2/3..  training loss: 2.136..  validation loss: 1.091..  validation accuracy: 0.694
+epoch: 2/3..  training loss: 2.117..  validation loss: 0.981..  validation accuracy: 0.739
+epoch: 2/3..  training loss: 2.213..  validation loss: 0.968..  validation accuracy: 0.746
+epoch: 3/3..  training loss: 1.041..  validation loss: 0.886..  validation accuracy: 0.772
+epoch: 3/3..  training loss: 1.999..  validation loss: 0.949..  validation accuracy: 0.744
+epoch: 3/3..  training loss: 2.053..  validation loss: 0.849..  validation accuracy: 0.764
+epoch: 3/3..  training loss: 1.859..  validation loss: 0.850..  validation accuracy: 0.756
+epoch: 3/3..  training loss: 2.004..  validation loss: 0.851..  validation accuracy: 0.775
+epoch: 3/3..  training loss: 1.925..  validation loss: 0.850..  validation accuracy: 0.751
+epoch: 3/3..  training loss: 2.082..  validation loss: 0.865..  validation accuracy: 0.752
+epoch: 3/3..  training loss: 1.996..  validation loss: 0.817..  validation accuracy: 0.799
+epoch: 3/3..  training loss: 1.966..  validation loss: 0.826..  validation accuracy: 0.781
+epoch: 3/3..  training loss: 1.805..  validation loss: 0.755..  validation accuracy: 0.809
+-- done --
+duration:  00:15:18
+```
+
+
   
   
