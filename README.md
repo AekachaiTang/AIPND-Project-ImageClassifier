@@ -16,3 +16,42 @@ The project is broken down into multiple steps:
 
 We'll lead you through each part which you'll implement in Python.
 When you've completed this project, you'll have an application that can be trained on any set of labeled images. Here your network will be learning about flowers and end up as a command line application. But, what you do with your new skills depends on your imagination and effort in building a dataset. For example, imagine an app where you take a picture of a car, it tells you what the make and model is, then looks up information about it. Go build your own dataset and make something new.
+
+### Prerequisites
+
+Thinks you have to install or installed on your working machine:
+
+* Python 3.7
+* Numpy (win-64 v1.15.4)
+* Pandas (win-64 v0.23.4)
+* Matplotlib (win-64 v3.0.2)
+* Jupyter Notebook
+* Torchvision (win-64 v0.2.1)
+* PyTorch (win-64 v0.4.1)
+
+### Environment:
+* [Miniconda](https://conda.io/miniconda.html) or [Anaconda](https://www.anaconda.com/download/)
+
+
+### Installing
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) or
+[miniconda](https://conda.io/miniconda.html) or [Anaconda](https://www.anaconda.com/download/) to install your packages.  
+A step by step guide to install the all necessary components in Anaconda for a Windows-64 System:
+```bash
+conda install -c conda-forge numpy
+conda install -c conda-forge pandas
+conda install -c conda-forge matplotlib
+pip install torchvision
+conda install -c pytorch pytorch
+```
+
+## Jupyter Notebook
+* `Image Classifier Project.ipynb`
+
+This jupyter notebook describe the whole project from udacity, from the beginning to the end.
+
+## Running the project
+
+The whole project is located in the file `Image Classifier Project.py` and it's include the training and the prediction part.
+Based on this implementation the jupyter notebook was created from this.
