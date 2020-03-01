@@ -103,7 +103,34 @@ epoch: 3/3..  training loss: 1.966..  validation loss: 0.826..  validation accur
 epoch: 3/3..  training loss: 1.805..  validation loss: 0.755..  validation accuracy: 0.809
 -- done --
 duration:  00:15:18
+calculate accuracy on test ... done.
+accuracy of the network on the 10000 test images: 77 %
+duration:  00:00:18
+save model to:  ./checkpoint.pth ... done
+----- running with params -----
+image file:      ./flowers/test/10/image_07117.jpg
+load file:       checkpoint.pth
+top k:           5
+category names:  cat_to_name.json
+gpu:             True
+-------------------------------
+load model from:  checkpoint.pth
+create model ... done
+initialize model ... done
+
+--- prediction ---
+load image data ... done
+get prediction ... done.
+ 1 with 0.967 is globe thistle
+ 2 with 0.014 is spear thistle
+ 3 with 0.007 is common dandelion
+ 4 with 0.006 is great masterwort
+ 5 with 0.002 is artichoke
+------------------
+load image data ... done
+
 ```
+
 
 
   
