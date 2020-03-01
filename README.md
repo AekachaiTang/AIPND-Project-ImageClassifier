@@ -285,3 +285,37 @@ Epoch 3/3.. Loss: 0.831.. Validation Loss: 0.548.. Accuracy: 0.856
 Epoch 3/3.. Loss: 0.845.. Validation Loss: 0.625.. Accuracy: 0.848
 Saved checkpoint!
 ```
+### Get prediction of the previous trained model
+
+To get prediction of the previous trained neural network (CNN), start the second part of file `Image Classifier Project.py` marked as `predict`.
+
+### Parameters of prediction
+
+To change to input folder, the output size and some other parameters for the neural network, you can adapt these global constants inside the python file.
+
+```python
+# ---- set parameters ---------------
+param_image_file = "./flowers/test/1/image_06752.jpg"  # default: flowers/
+param_load_file_name = "checkpoint.pth"                 # default: checkpoint.pt
+param_top_k = 5                                         # 5
+param_category_names = "cat_to_name.json"               # cat_to_name.json
+param_gpu = True                                       # True or False
+# -----------------------------------
+```
+
+### Output of prediction
+```
+passion flower with a probability of 0.4986940324306488
+pink primrose with a probability of 0.136444091796875
+cyclamen with a probability of 0.09481421858072281
+spear thistle with a probability of 0.0776754841208458
+spring crocus with a probability of 0.04279068112373352
+Finished Predicting!
+```
+
+![globe thistle](./assets/download.png)
+![chart](./assets/download-1.png)
+
+
+## Authors
+Aekachai Tangratanavalee
